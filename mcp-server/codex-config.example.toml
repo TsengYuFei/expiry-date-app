@@ -1,0 +1,12 @@
+# Copy this section into your Codex config; adjust paths if moving the project.
+# This file does not change the currently running Codex configuration.
+[mcp_servers.expiry_book]
+command = "C:/Users/sophi/expiry-date-app/mcp-server/.venv/Scripts/python.exe"
+args = ["C:/Users/sophi/expiry-date-app/mcp-server/server.py", "--data", "C:/Users/sophi/expiry-date-app/mcp-server/data/items.json"]
+cwd = "C:/Users/sophi/expiry-date-app/mcp-server"
+enabled_tools = ["get_expiring_items"]
+startup_timeout_sec = 30
+tool_timeout_sec = 30
+
+[mcp_servers.expiry_book.env]
+PYTHONUTF8 = "1"

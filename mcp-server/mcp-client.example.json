@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "expiry_book": {
+      "command": "C:/Users/sophi/expiry-date-app/mcp-server/.venv/Scripts/python.exe",
+      "args": [
+        "C:/Users/sophi/expiry-date-app/mcp-server/server.py",
+        "--data",
+        "C:/Users/sophi/expiry-date-app/mcp-server/data/items.json"
+      ],
+      "env": {"PYTHONUTF8": "1"}
+    }
+  }
+}

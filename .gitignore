@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+~$*
+~WRL*.tmp
+emulator-*.log
+.venv/
+__pycache__/
+*.pyc
+mcp-server/data/*.json
